@@ -5,6 +5,8 @@ A client that consume the server data and view the products
 
 ![app image](res/app.png?raw=true "App Image")
 
+---
+
 ## How it works
 
 in here we adapted a very simple API that is as follows
