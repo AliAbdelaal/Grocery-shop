@@ -13,6 +13,11 @@ class Client:
             raise Exception("make sure the server is up")
 
     def get_prices(self):
+        # create a prices request
+        prices = {
+            'request': 'prices',
+            'data': None
+        }
         prices_str = json.dumps(prices).encode()
         self.socket.send(prices_str)
 
